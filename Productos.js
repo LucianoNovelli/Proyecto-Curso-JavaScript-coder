@@ -29,3 +29,5 @@ productos.push (new Producto("Teclado logitech","Periferico",101,7800, "./imagen
 productos.push (new Producto ("Consola ps4 original","Consola",151,80000,"./imagen/pla4.webp"));
 productos.push (new Producto ("Fifa 2023","Juego",146,8600,"./imagen/fifa23.webp"));
 productos.push (new Producto ("Auriculares Sony ps4","Periferico",99,56000,"./imagen/aurisps4.webp"));
+productos.push (new Producto ("The Last of Us Part II","Juego",45,8100,"./imagen/thelast.webp"));
+productos.push (new Producto ("Sony PlayStation 5","Consola",69,310000,"./imagen/ps5.webp"));

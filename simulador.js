@@ -2,6 +2,7 @@ const carro = [];
 
 let totalPrecio;
 
+/*
 console.log('*** Todos los Productos')
 productos.forEach(n => n.imprimir());
 
@@ -19,7 +20,7 @@ productos.sort((a,b) => (a.precio - b.precio)).forEach(n => n.imprimir());
 
 console.log('*** Todos los Productos ordenados por precio descendente')
 productos.sort((a,b) => b.precio - a.precio).forEach(n => n.imprimir());
-
+*/
 
 //Clases de DOM
 
