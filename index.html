@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
     <title>Simulador</title>
 </head>
 <body>
+
+    <div id="caja">
+        <h1 >Store Gamming!!!</h1>
+        <p>Todo lo que buscas... lo encontras aqui!</p>
+    </div>
+
+
+    <div id="cartas" class="row container-fluid">
+        <h3>Nuestros productos: </h3>
+        <!-- Aqui van las cartas -->
+    </div>
+
+    <div class="caja-tabla">
+        <h4>Tu carrito:</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tablabody">
+                <!-- aqui tabla carrito -->
+            </tbody>
+        </table>
+        <h4 id="total">Total a pagar $:</h4>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="Productos.js"></script>
     <script src="simulador.js"></script>
 </body>
 </html>

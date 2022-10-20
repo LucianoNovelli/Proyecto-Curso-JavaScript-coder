@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-left: 5px;
+  background-color: rgb(255, 246, 230);
+}
+
+#caja h1 {
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#caja p {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(70, 67, 229);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+  margin: auto;
+  margin: 2px;
+  margin-left: 10px;
+}
+.card img {
+  height: 240px;
+}
+.card h5 {
+  margin-top: 10px;
+  color: blue;
+}
+
+.caja-tabla {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 98%;
+  border: 2px solid black;
+  padding: 10px;
+}/*# sourceMappingURL=estilos.css.map */
