@@ -58,22 +58,24 @@ CrearTabla.append (tabla);
 
 //Ingreso de Cars
 
+
+/*
 let articulosCartas = document.getElementById ("cartas");
 
 for (const producto of productos){
-    let carta = document.createElement ("div");
-    carta.className = "card col-xl-2"
-    carta.innerHTML += `
+        let carta = document.createElement ("div");
+        carta.className = "card col-xl-2"
+        carta.innerHTML += `
 
-    <div class="card-body">
-        <img src=${producto.imagen} class="card-img-top" alt="...">
-        <h5 class="card-title">${producto.nombre}</h5>
-        <p class="card-text">$ ${producto.precioConIva()}</p>
-        <p class="card-text">${producto.caracteristicas}</p>
-        <button id = "btn${producto.codigo}" class="btn btn-primary">Comprar</button>
-    </div>
-    `;
-    articulosCartas.append(carta);
+        <div class="card-body">
+            <img src=${producto.imagen} class="card-img-top" alt="...">
+            <h5 class="card-title">${producto.nombre}</h5>
+            <p class="card-text">$ ${producto.precioConIva()}</p>
+            <p class="card-text">${producto.caracteristicas}</p>
+            <button id = "btn${producto.codigo}" class="btn btn-primary">Comprar</button>
+        </div>
+        `;
+        articulosCartas.append(carta);
 }
 
 productos.forEach (producto =>{
@@ -81,6 +83,62 @@ productos.forEach (producto =>{
         agregarAlCarrito(producto)
     })
 })
+*/
+
+
+
+
+// Funcion que retorna una lista con los html de cada carta
+function getHtmlCardsOfProductos(productos) {
+    let htmlProductos = []
+    
+
+    for (const producto of productos){
+        let carta = document.createElement ("div");
+        carta.className = "card col-xl-2 "
+    
+        cuerpoCarta = document.createElement ("div");
+        cuerpoCarta.className = "card-body "
+        cuerpoCarta.innerHTML += `
+            <img src=${producto.imagen} class="card-img-top" alt="...">
+            <h5 class="card-title">${producto.nombre}</h5>
+            <p class="card-text">$ ${producto.precioConIva()}</p>
+            <p class="card-text">${producto.caracteristicas}</p>
+            <button id = 
+        `;
+        boton = document.createElement("button")
+        boton.setAttribute("id", `btn${producto.codigo}`)
+        boton.setAttribute("class", "btn btn-primary")
+        
+        boton.innerHTML = "Comprar"
+        boton.addEventListener("click",function(){
+            agregarAlCarrito(producto)
+        })
+        cuerpoCarta.append(boton)
+        carta.append(cuerpoCarta)
+
+        htmlProductos.push(carta);
+    }
+
+    return htmlProductos
+}
+
+
+// Inicio Barrido categorias
+let categorias = ["Juegos", "Consolas", "Perifericos", "Mandos"]
+
+for (const categoria of categorias){
+    let articulos = document.getElementById("cartas")
+
+    let cartas = document.createElement("div")
+    cartas.className = "cart row"
+    cartas.innerHTML = `<h3>Nuestros ${categoria} </h3>`
+    
+    let productosFiltrados = productos.filter(p => p.caracteristicas == categoria)
+    getHtmlCardsOfProductos(productosFiltrados).forEach( p => cartas.append(p))
+    
+    articulos.append(cartas)
+}
 
 
 function agregarAlCarrito (productoComprado){
@@ -97,4 +155,4 @@ function agregarAlCarrito (productoComprado){
 totalPrecio = carro.reduce((acumulador,producto)=> acumulador + producto.precio,0);
 let infoTotal = document.getElementById("total");
 infoTotal.innerText="Total a pagar $: "+totalPrecio;
-}
+};
