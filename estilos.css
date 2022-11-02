@@ -6,7 +6,6 @@ body {
 }
 
 .caja {
-  margin-left: 30px;
   margin-top: 25px;
   color: blue;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -21,7 +20,7 @@ body {
 }
 
 .card {
-  margin: 10px;
+  margin: 5px;
 }
 
 .card-body h5 {
@@ -38,4 +37,11 @@ body {
   border: solid 2px blue;
   padding: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+.caja-tabla button {
+  border-radius: 100px;
+  margin: 10px;
+  background-color: blue;
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
