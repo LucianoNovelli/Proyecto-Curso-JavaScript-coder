@@ -67,7 +67,15 @@ for (const categoria of categorias){
 function agregarAlCarrito (productoComprado){
     carro.push (productoComprado);
     //console.table(carro);
-    alert("Agregaste "+productoComprado.nombre+" Al carrito");
+    Swal.fire({
+        title: productoComprado.nombre,
+        text: 'Agregado al carrito',
+        imageUrl: productoComprado.imagen,
+        imageWidth: 150,
+        imageHeight: 150,
+        imageAlt: 'Custom image',
+    })
+    
     document.getElementById("tablabody").innerHTML += `
     <tr>
         <td>${productoComprado.codigo}</td>
