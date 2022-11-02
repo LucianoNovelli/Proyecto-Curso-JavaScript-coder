@@ -86,22 +86,7 @@ function agregarAlCarrito (productoComprado){
 
     guardarLocal("listaProductos", JSON.stringify(carro));
 
-    class NuevoProducto{
-        constructor(obj){
-            this.nombre = obj.nombre.toUpperCase();
-            this.precio = parseFloat (obj.precio);
-        }
-    }
-
     const almacenados = JSON.parse (localStorage.getItem ("listaProductos"));
 
-    const finalizarCompra = [];
-
-    for (const objeto of almacenados){
-
-        finalizarCompra.push (new NuevoProducto (objeto));
-    }
-
-    console.log(finalizarCompra);
 }
 
