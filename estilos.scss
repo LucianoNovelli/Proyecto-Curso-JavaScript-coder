@@ -2,40 +2,44 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(255, 246, 230);
-    padding-left: 20px;
+}
+
+.navbar{
+    p{
+        color: rgb(63, 122, 14);
+        img{
+            margin-right: 5px;
+        }
+    }
 }
 .caja{
     margin-top: 25px;
-    color: blue;
+    color: rgb(63, 122, 14);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.cart{
-    margin-bottom: 20px;
-    h3{
-        color: blue;
-        text-align: center;
+.card{
+    img{
+        height: 210px;
     }
-}
 
+}
 .card{
     margin: 5px;
 }
 
 .card-body{
     h5{
-        color: blue;
+        color: rgb(63, 122, 14);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 15px;
-    }
-    img{
-        height: 230px;
-        margin-bottom: 7px;
     }
 }
 
 .caja-tabla{
-    background-color: rgb(245, 245, 191);
+    width: 99%;
+    
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -43,6 +47,10 @@ body{
         border-radius: 100px;
         margin: 10px;
         ;
-        color: white;
+        color: rgb(190, 238, 241);
     }
+}
+
+.container-fluid{
+    margin-bottom: 20px;
 }

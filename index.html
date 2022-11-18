@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="estilos.css">
-    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <title>Simulador</title>
 </head>
 <body>
@@ -15,24 +15,23 @@
     <nav class="navbar bg-warning">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/Imagen/9e6cae92b4f42dc39fb3f1f83f4e156d.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                
+                <p><img src="/Imagen/9e6cae92b4f42dc39fb3f1f83f4e156d.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">Tienda Gamer</p>
             </a>
         </div>
     </nav>
 
     <div id="caja" class="caja">
-        <h1>Store Gamming!!!</h1>
+        <h1>Tienda Gamer!!</h1>
         <p>¡Todo lo que buscas... lo encontras aqui!</p>
     </div>
 
 
-    <div id="cartas" class="container-fluid" >  
+    <div id="cartas" class="row container-fluid justify-content-center " >  
         <!-- Aqui van las cartas  -->
     </div>
 
-    <div class="caja-tabla" id="carrito">
-        <h4>Tu carrito:</h4>
+    <div class="caja-tabla container-fluid justify-content-center bg-warning" id="carrito">
+        <h4>🛒​Tu carrito:</h4>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -45,18 +44,16 @@
                 <!-- aqui tabla carrito -->
             </tbody>
         </table>
-        <h4 id="total">Total a pagar $:</h4>
+        <h4 id="total">Total a pagar 💰​:</h4>
         <div class="row">
-            <button type="button" class="btn btn-success col-xl-2">Finalizar Compra</button>
-            <button type="button" class="btn btn-success col-xl-2">Vaciar Carrito</button>
+            <button type="button" class="btn btn-success col-xl-2" id="Botonfinalizar">Finalizar Compra</button>
         </div>
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-    
-    <script src="Productos.js"></script>
-    <script src="simulador.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="simulador.js"></script>
 </body>
 </html>

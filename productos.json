@@ -1,0 +1,118 @@
+[
+    {
+        "nombre": "Jostick PS4 original",
+        "caracteristica": "Mandos",
+        "id": 1,
+        "precio": 10600,
+        "imagen":"./imagen/jostick.webp"
+    },
+
+    {
+        "nombre": "Jostick PS3 original",
+        "caracteristica": "Mandos",
+        "id": 2,
+        "precio": 7600,
+        "imagen":"./imagen/mandops3.webp"
+    },
+
+    {
+        "nombre": "Jostick X-box series",
+        "caracteristica": "Mandos",
+        "id": 3,
+        "precio": 11000,
+        "imagen": "./imagen/mandoxbox.webp"
+    },
+
+    {
+        "nombre": "Jostick PS5 original",
+        "caracteristica": "Mandos",
+        "id": 4,
+        "precio": 120000,
+        "imagen": "./imagen/mandops5.webp"
+    },
+
+    {
+        "nombre": "Jostick X-box 360",
+        "caracteristica": "Consolas",
+        "id": 5,
+        "precio": 8200,
+        "imagen": "./imagen/mandoxbox360.webp"
+    },
+
+    {
+        "nombre": "Consola PS5 original",
+        "caracteristica": "Consolas",
+        "id": 6,
+        "precio": 185000,
+        "imagen": "./imagen/ps5.webp"
+    },
+
+    {
+        "nombre": "Consola PS4 original",
+        "caracteristica": "Consolas",
+        "id": 7,
+        "precio": 138000,
+        "imagen": "./imagen/pla4.webp"
+    },
+    {
+        "nombre": "Consola PS2 original",
+        "caracteristica": "Consolas",
+        "id": 8,
+        "precio": 77000,
+        "imagen": "./imagen/ps2.webp"
+    },
+    {
+        "nombre": "Consola X-BOX One",
+        "caracteristica": "Consolas",
+        "id": 9,
+        "precio": 177000,
+        "imagen": "./imagen/xboxone.webp"
+    },
+
+    {
+        "nombre": "Consola X-BOX Series",
+        "caracteristica": "Consolas",
+        "id": 10,
+        "precio": 97000,
+        "imagen": "./imagen/xboxserie.webp"
+    },
+
+    {
+        "nombre": "Fifa 23",
+        "caracteristica": "Consolas",
+        "id": 11,
+        "precio": 8200,
+        "imagen": "./imagen/fifa23.webp"
+    },
+
+    {
+        "nombre": "God of War",
+        "caracteristica": "Consolas",
+        "id": 12,
+        "precio": 8500,
+        "imagen": "./imagen/godofwar.webp"
+    },
+
+    {
+        "nombre": "Mortal Kombat",
+        "caracteristica": "Consolas",
+        "id": 13,
+        "precio": 7200,
+        "imagen": "./imagen/mortalkombat.webp"
+    },
+    {
+        "nombre": "Resident Evil",
+        "caracteristica": "Consolas",
+        "id": 13,
+        "precio": 7200,
+        "imagen": "./imagen/resident.webp"
+    },
+    
+    {
+        "nombre": "The last of us",
+        "caracteristica": "Consolas",
+        "id": 14,
+        "precio": 6900,
+        "imagen": "./imagen/thelast.webp"
+    }
+]
