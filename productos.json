@@ -103,7 +103,7 @@
     {
         "nombre": "Resident Evil",
         "caracteristica": "Consolas",
-        "id": 13,
+        "id": 14,
         "precio": 7200,
         "imagen": "./imagen/resident.webp"
     },
@@ -111,7 +111,7 @@
     {
         "nombre": "The last of us",
         "caracteristica": "Consolas",
-        "id": 14,
+        "id": 15,
         "precio": 6900,
         "imagen": "./imagen/thelast.webp"
     }
